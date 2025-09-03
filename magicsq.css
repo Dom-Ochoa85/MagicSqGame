@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #000; 
+  color: white;
+}
+
+h1 {
+  color: #ff69b4;
+}
+
+label, input, button {
+  font-size: 16px;
+  margin: 5px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+input[type="number"] {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid #ff69b4; 
+  border-radius: 5px;
+  background-color: #ff69b4; 
+  color: #000; 
+  font-weight: bold;
+}
+
+#check-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #ff69b4;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#check-btn:hover {
+  background-color: #ff1493;
+}
+
+#result {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ff69b4;
+}
